@@ -17,6 +17,10 @@
 		F2B6566A21E68D36001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B6566B21E68D36001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B6566C21E68D37001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B6566E21E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
+		F2B6566F21E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
+		F2B6567021E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
+		F2B6567121E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,7 @@
 		F2B6562021E615E4001B14A2 /* PrettyLogger-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PrettyLogger-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6565021E6161B001B14A2 /* PrettyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6565821E6161B001B14A2 /* PrettyLogger-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PrettyLogger-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B6566D21E69215001B14A2 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +146,7 @@
 			children = (
 				F2B655EF21E61459001B14A2 /* PrettyLogger.h */,
 				F2B655F021E61459001B14A2 /* Info.plist */,
+				F2B6566D21E69215001B14A2 /* Logger.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -330,21 +336,25 @@
 				TargetAttributes = {
 					F2B655EB21E61459001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F2B655F421E6145A001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					F2B6560A21E615CC001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F2B6561721E615E4001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F2B6561F21E615E4001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					F2B6564F21E6161B001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F2B6565721E6161B001B14A2 = {
 						CreatedOnToolsVersion = 10.1;
@@ -431,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566E21E69215001B14A2 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566F21E69215001B14A2 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6567021E69215001B14A2 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6567121E69215001B14A2 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +639,7 @@
 		F2B6560121E6145A001B14A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -641,6 +656,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.s3ba.PrettyLogger;
 				PRODUCT_NAME = PrettyLogger;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -649,6 +665,7 @@
 		F2B6560221E6145A001B14A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -673,6 +690,7 @@
 		F2B6560421E6145A001B14A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -690,6 +708,7 @@
 		F2B6560521E6145A001B14A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -708,6 +727,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -725,6 +745,7 @@
 				PRODUCT_NAME = PrettyLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.1;
@@ -735,6 +756,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -761,6 +783,7 @@
 		F2B6562A21E615E4001B14A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -778,6 +801,7 @@
 				PRODUCT_NAME = PrettyLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.1;
@@ -787,6 +811,7 @@
 		F2B6562B21E615E4001B14A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -813,6 +838,7 @@
 		F2B6562D21E615E4001B14A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -832,6 +858,7 @@
 		F2B6562E21E615E4001B14A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -851,6 +878,7 @@
 		F2B6566221E6161B001B14A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -871,6 +899,7 @@
 				PRODUCT_NAME = PrettyLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -878,6 +907,7 @@
 		F2B6566321E6161B001B14A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -905,6 +935,7 @@
 		F2B6566521E6161B001B14A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -925,6 +956,7 @@
 		F2B6566621E6161B001B14A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

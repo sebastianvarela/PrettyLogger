@@ -3,5 +3,6 @@ import XCTest
 
 class PrettyLoggerTests: XCTestCase {
     func testExample() {
+        logDebug("hi")
     }
 }

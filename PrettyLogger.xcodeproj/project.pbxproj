@@ -202,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B6560021E6145A001B14A2 /* Build configuration list for PBXNativeTarget "PrettyLogger-iOS" */;
 			buildPhases = (
+				F2B6567221E6937C001B14A2 /* SwiftLint */,
 				F2B655E721E61459001B14A2 /* Headers */,
 				F2B655E821E61459001B14A2 /* Sources */,
 				F2B655E921E61459001B14A2 /* Frameworks */,
@@ -242,6 +243,7 @@
 				F2B6560721E615CC001B14A2 /* Sources */,
 				F2B6560821E615CC001B14A2 /* Frameworks */,
 				F2B6560921E615CC001B14A2 /* Resources */,
+				F2B6567521E693BE001B14A2 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -256,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B6562921E615E4001B14A2 /* Build configuration list for PBXNativeTarget "PrettyLogger-tvOS" */;
 			buildPhases = (
+				F2B6567421E693AC001B14A2 /* SwiftLint */,
 				F2B6561321E615E4001B14A2 /* Headers */,
 				F2B6561421E615E4001B14A2 /* Sources */,
 				F2B6561521E615E4001B14A2 /* Frameworks */,
@@ -292,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B6566121E6161B001B14A2 /* Build configuration list for PBXNativeTarget "PrettyLogger-macOS" */;
 			buildPhases = (
+				F2B6567321E6939D001B14A2 /* SwiftLint */,
 				F2B6564B21E6161B001B14A2 /* Headers */,
 				F2B6564C21E6161B001B14A2 /* Sources */,
 				F2B6564D21E6161B001B14A2 /* Frameworks */,
@@ -435,6 +439,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2B6567221E6937C001B14A2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+		};
+		F2B6567321E6939D001B14A2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+		};
+		F2B6567421E693AC001B14A2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+		};
+		F2B6567521E693BE001B14A2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2B655E821E61459001B14A2 /* Sources */ = {

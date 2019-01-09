@@ -7,5 +7,5 @@ script:
 - xcodebuild clean build test -project PrettyLogger.xcodeproj -scheme PrettyLogger-tvOS -destination "platform=tvOS Simulator,name=Apple TV" | xcpretty -f `xcpretty-travis-formatter`
 - bash <(curl -s https://codecov.io/bash) -cF tvOS -J 'PrettyLogger'
 - xcodebuild clean build test -project PrettyLogger.xcodeproj -scheme PrettyLogger-macOS | xcpretty -f `xcpretty-travis-formatter`
-- bash <(curl -s https://codecov.io/bash) -cF iPad -J 'PrettyLogger'
+- bash <(curl -s https://codecov.io/bash) -cF osx -J 'PrettyLogger'
 - swiftlint lint

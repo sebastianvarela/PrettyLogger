@@ -12,6 +12,11 @@
 		F2B655FD21E6145A001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B6562121E615E4001B14A2 /* PrettyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6561821E615E4001B14A2 /* PrettyLogger.framework */; };
 		F2B6565921E6161B001B14A2 /* PrettyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6565021E6161B001B14A2 /* PrettyLogger.framework */; };
+		F2B6566821E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */; };
+		F2B6566921E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */; };
+		F2B6566A21E68D36001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B6566B21E68D36001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B6566C21E68D37001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +169,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566A21E68D36001B14A2 /* PrettyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +177,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566B21E68D36001B14A2 /* PrettyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +185,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566C21E68D37001B14A2 /* PrettyLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566821E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B6566921E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

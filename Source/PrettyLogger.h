@@ -6,7 +6,7 @@
 //  Copyright © 2019 S3BA. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for PrettyLogger.
 FOUNDATION_EXPORT double PrettyLoggerVersionNumber;

@@ -7,20 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2991C1D21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
+		F2991C1E21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
+		F2991C1F21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
+		F2991C2021FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
+		F2991C2221FB2B4200647ABD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2121FB2B4200647ABD /* Helpers.swift */; };
+		F2991C2321FB2B4200647ABD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2121FB2B4200647ABD /* Helpers.swift */; };
+		F2991C2421FB2B4200647ABD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2121FB2B4200647ABD /* Helpers.swift */; };
+		F2991C2521FB2B4200647ABD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2121FB2B4200647ABD /* Helpers.swift */; };
+		F2991C2721FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
+		F2991C2821FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
+		F2991C2921FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
+		F2991C2A21FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
+		F2991C2C21FB302100647ABD /* FormatOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutput.swift */; };
+		F2991C2D21FB302100647ABD /* FormatOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutput.swift */; };
+		F2991C2E21FB302100647ABD /* FormatOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutput.swift */; };
 		F2B655F621E6145A001B14A2 /* PrettyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B655EC21E61459001B14A2 /* PrettyLogger.framework */; };
-		F2B655FB21E6145A001B14A2 /* PrettyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */; };
+		F2B655FB21E6145A001B14A2 /* LevelConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */; };
 		F2B655FD21E6145A001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B6562121E615E4001B14A2 /* PrettyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6561821E615E4001B14A2 /* PrettyLogger.framework */; };
 		F2B6565921E6161B001B14A2 /* PrettyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6565021E6161B001B14A2 /* PrettyLogger.framework */; };
-		F2B6566821E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */; };
-		F2B6566921E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */; };
+		F2B6566821E68C4F001B14A2 /* LevelConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */; };
+		F2B6566921E68C4F001B14A2 /* LevelConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */; };
 		F2B6566A21E68D36001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B6566B21E68D36001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B6566C21E68D37001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2B6566E21E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
-		F2B6566F21E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
-		F2B6567021E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
-		F2B6567121E69215001B14A2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* Logger.swift */; };
+		F2B6566E21E69215001B14A2 /* PrettyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* PrettyLogger.swift */; };
+		F2B6566F21E69215001B14A2 /* PrettyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* PrettyLogger.swift */; };
+		F2B6567021E69215001B14A2 /* PrettyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* PrettyLogger.swift */; };
+		F2B6567121E69215001B14A2 /* PrettyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B6566D21E69215001B14A2 /* PrettyLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,18 +63,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyLoggerLevel.swift; sourceTree = "<group>"; };
+		F2991C2121FB2B4200647ABD /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		F2991C2621FB2B6500647ABD /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		F2991C2B21FB302100647ABD /* FormatOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatOutput.swift; sourceTree = "<group>"; };
 		F2B655EC21E61459001B14A2 /* PrettyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B655EF21E61459001B14A2 /* PrettyLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrettyLogger.h; sourceTree = "<group>"; };
 		F2B655F021E61459001B14A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B655F521E6145A001B14A2 /* PrettyLogger-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PrettyLogger-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyLoggerTests.swift; sourceTree = "<group>"; };
+		F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelConfigurationTests.swift; sourceTree = "<group>"; };
 		F2B655FC21E6145A001B14A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B6560B21E615CC001B14A2 /* PrettyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6561821E615E4001B14A2 /* PrettyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6562021E615E4001B14A2 /* PrettyLogger-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PrettyLogger-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6565021E6161B001B14A2 /* PrettyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6565821E6161B001B14A2 /* PrettyLogger-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PrettyLogger-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2B6566D21E69215001B14A2 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		F2B6566D21E69215001B14A2 /* PrettyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +165,10 @@
 			children = (
 				F2B655EF21E61459001B14A2 /* PrettyLogger.h */,
 				F2B655F021E61459001B14A2 /* Info.plist */,
-				F2B6566D21E69215001B14A2 /* Logger.swift */,
+				F2991C2621FB2B6500647ABD /* Global.swift */,
+				F2B6566D21E69215001B14A2 /* PrettyLogger.swift */,
+				F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */,
+				F2991C2121FB2B4200647ABD /* Helpers.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -154,7 +176,8 @@
 		F2B655F921E6145A001B14A2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F2B655FA21E6145A001B14A2 /* PrettyLoggerTests.swift */,
+				F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */,
+				F2991C2B21FB302100647ABD /* FormatOutput.swift */,
 				F2B655FC21E6145A001B14A2 /* Info.plist */,
 			);
 			path = Tests;
@@ -457,7 +480,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		F2B6567321E6939D001B14A2 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -475,7 +498,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		F2B6567421E693AC001B14A2 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -493,7 +516,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		F2B6567521E693BE001B14A2 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -511,7 +534,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, run: brew install swiftlint\"\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -520,7 +543,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6566E21E69215001B14A2 /* Logger.swift in Sources */,
+				F2991C2721FB2B6500647ABD /* Global.swift in Sources */,
+				F2991C1D21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
+				F2991C2221FB2B4200647ABD /* Helpers.swift in Sources */,
+				F2B6566E21E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +554,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B655FB21E6145A001B14A2 /* PrettyLoggerTests.swift in Sources */,
+				F2991C2C21FB302100647ABD /* FormatOutput.swift in Sources */,
+				F2B655FB21E6145A001B14A2 /* LevelConfigurationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +563,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6566F21E69215001B14A2 /* Logger.swift in Sources */,
+				F2991C2821FB2B6500647ABD /* Global.swift in Sources */,
+				F2991C1E21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
+				F2991C2321FB2B4200647ABD /* Helpers.swift in Sources */,
+				F2B6566F21E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +574,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6567021E69215001B14A2 /* Logger.swift in Sources */,
+				F2991C2921FB2B6500647ABD /* Global.swift in Sources */,
+				F2991C1F21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
+				F2991C2421FB2B4200647ABD /* Helpers.swift in Sources */,
+				F2B6567021E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +585,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6566821E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */,
+				F2991C2D21FB302100647ABD /* FormatOutput.swift in Sources */,
+				F2B6566821E68C4F001B14A2 /* LevelConfigurationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +594,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6567121E69215001B14A2 /* Logger.swift in Sources */,
+				F2991C2A21FB2B6500647ABD /* Global.swift in Sources */,
+				F2991C2021FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
+				F2991C2521FB2B4200647ABD /* Helpers.swift in Sources */,
+				F2B6567121E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +605,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6566921E68C4F001B14A2 /* PrettyLoggerTests.swift in Sources */,
+				F2991C2E21FB302100647ABD /* FormatOutput.swift in Sources */,
+				F2B6566921E68C4F001B14A2 /* LevelConfigurationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

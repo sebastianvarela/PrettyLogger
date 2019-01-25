@@ -9,3 +9,4 @@ script:
 - xcodebuild clean build test -project PrettyLogger.xcodeproj -scheme PrettyLogger-macOS | xcpretty -f `xcpretty-travis-formatter`
 - bash <(curl -s https://codecov.io/bash) -cF osx -J 'PrettyLogger'
 - swiftlint lint
+- pod lib lint

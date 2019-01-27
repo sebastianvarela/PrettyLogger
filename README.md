@@ -27,8 +27,8 @@ pod 'PrettyLogger'
 ```
 
 ## Usage
-### Log Messages
-To print a message in console simply use any of the global functions:
+### Print messages
+To print a message in the console you simply use any of the global functions:
 ```swift
   logWarning("This a warning!!")
   logError("This is showed as error")
@@ -37,7 +37,7 @@ To print a message in console simply use any of the global functions:
   logDebug("This is a debug message")
   logTrace("This is a trace info")
 ```
-This commands produces 
+The previous example will print: 
 ```ogdl 
 13:31:59.632 ◉ ⚠️⚠️⚠️ This a warning!! [File.swift:L109]
 13:31:59.639 ◉ ❌❌❌ This is showed as error [File.swift:L110]
@@ -46,15 +46,15 @@ This commands produces
 13:31:59.639 ◉ 🐛 This is a debug message [File.swift:L113]
 13:31:59.640 ◉ ✏️ This is a trace info [File.swift:L114]
 ```
-### Configuring Level
-You can silent all logs or some depending on level by setting level on shared instance:
+### Level
+You can silent all logs (or some, depending on level) by setting the property `level` on the shared instance:
 ```swift
 PrettyLogger.shared.level = .all //To show all messages
 PrettyLogger.shared.level = .disable //To silent logger
 PrettyLogger.shared.level = .info //To show all message except debug & trace
 ```
-The available levels are: disable, fatal, error, warn, info, debug, trace & all 
-### Setting PrettyLogger as global framework:
+The available levels, in order, are: disable, fatal, error, warn, info, debug, trace & all 
+### Global framework
 If you want to import all functions in your project without import PrettyLogger in every file you could use this directive in your AppDelegate: 
 ```swift
 @_exported import PrettyLogger

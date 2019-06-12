@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "PrettyLogger"
   s.version      = "2.0.0"
+  s.swift_version = '5.0'
   s.summary      = "A pretty set of log functions to print message in console using levels and emojis to improve visibility 💪"
   s.description  = <<-DESC
   A pretty set of log functions to print message in console using levels (Debug, Info, Trace, Warning & Error) and emojis to improve visibility 💪
                    DESC
   s.homepage     = "https://github.com/sebastianvarela/PrettyLogger"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.swift_version = '5.0'
 
   s.author             = { "Sebastián Varela" => "sebastian.varela@s3ba.net" }
   s.social_media_url   = "http://twitter.com/skirmish84"

@@ -13,6 +13,11 @@ A pretty set of log functions to print message in console using levels (Debug, I
 ## Platforms 
 Support for iOS, tvOS and macOS
 
+## Support
+For Swift 4 please use v1
+
+For Swift 5 please use v2+
+
 ## Installation
 This framework is compatible with Carthage or Cocoapods, use one of both.
 ### Carthage

@@ -67,7 +67,8 @@ public class PrettyLogger {
         print(stringToPrint, terminator: terminator)
         
         let output = PrettyLoggerOutput(level: logLevel,
-                                        text: stringToPrint)
+                                        message: message,
+                                        formatted: stringToPrint)
         self.output.send(output)
         return stringToPrint
     }

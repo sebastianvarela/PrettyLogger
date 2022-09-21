@@ -68,7 +68,7 @@ public class PrettyLogger {
         
         let output = PrettyLoggerOutput(level: logLevel,
                                         message: message,
-                                        file: file,
+                                        file: (file as NSString).lastPathComponent,
                                         line: line,
                                         column: column,
                                         formatted: stringToPrint)

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PrettyLogger"
-  s.version      = "2.1.0"
+  s.version      = "2.1.1"
   s.swift_version = '5.0'
   s.summary      = "A pretty set of log functions to print message in console using levels and emojis to improve visibility 💪"
   s.description  = <<-DESC

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24B2E4F28DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E4E28DB33100092ABB2 /* PrettyLoggerOutput.swift */; };
+		F24B2E5028DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E4E28DB33100092ABB2 /* PrettyLoggerOutput.swift */; };
+		F24B2E5128DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E4E28DB33100092ABB2 /* PrettyLoggerOutput.swift */; };
+		F24B2E5228DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E4E28DB33100092ABB2 /* PrettyLoggerOutput.swift */; };
+		F24B2E5428DB34250092ABB2 /* OutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E5328DB34250092ABB2 /* OutputTests.swift */; };
+		F24B2E5528DB34250092ABB2 /* OutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E5328DB34250092ABB2 /* OutputTests.swift */; };
+		F24B2E5628DB34250092ABB2 /* OutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B2E5328DB34250092ABB2 /* OutputTests.swift */; };
 		F2991C1D21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
 		F2991C1E21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
 		F2991C1F21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */; };
@@ -19,9 +26,9 @@
 		F2991C2821FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
 		F2991C2921FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
 		F2991C2A21FB2B6500647ABD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2621FB2B6500647ABD /* Global.swift */; };
-		F2991C2C21FB302100647ABD /* FormatOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutput.swift */; };
-		F2991C2D21FB302100647ABD /* FormatOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutput.swift */; };
-		F2991C2E21FB302100647ABD /* FormatOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutput.swift */; };
+		F2991C2C21FB302100647ABD /* FormatOutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutputTests.swift */; };
+		F2991C2D21FB302100647ABD /* FormatOutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutputTests.swift */; };
+		F2991C2E21FB302100647ABD /* FormatOutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2991C2B21FB302100647ABD /* FormatOutputTests.swift */; };
 		F2B655F621E6145A001B14A2 /* PrettyLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B655EC21E61459001B14A2 /* PrettyLogger.framework */; };
 		F2B655FB21E6145A001B14A2 /* LevelConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */; };
 		F2B655FD21E6145A001B14A2 /* PrettyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B655EF21E61459001B14A2 /* PrettyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,10 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F24B2E4E28DB33100092ABB2 /* PrettyLoggerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyLoggerOutput.swift; sourceTree = "<group>"; };
+		F24B2E5328DB34250092ABB2 /* OutputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTests.swift; sourceTree = "<group>"; };
 		F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyLoggerLevel.swift; sourceTree = "<group>"; };
 		F2991C2121FB2B4200647ABD /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		F2991C2621FB2B6500647ABD /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		F2991C2B21FB302100647ABD /* FormatOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatOutput.swift; sourceTree = "<group>"; };
+		F2991C2B21FB302100647ABD /* FormatOutputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatOutputTests.swift; sourceTree = "<group>"; };
 		F2B655EC21E61459001B14A2 /* PrettyLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrettyLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B655EF21E61459001B14A2 /* PrettyLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrettyLogger.h; sourceTree = "<group>"; };
 		F2B655F021E61459001B14A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,6 +177,7 @@
 				F2991C2621FB2B6500647ABD /* Global.swift */,
 				F2B6566D21E69215001B14A2 /* PrettyLogger.swift */,
 				F2991C1C21FB2B0F00647ABD /* PrettyLoggerLevel.swift */,
+				F24B2E4E28DB33100092ABB2 /* PrettyLoggerOutput.swift */,
 				F2991C2121FB2B4200647ABD /* Helpers.swift */,
 			);
 			path = Source;
@@ -177,7 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				F2B655FA21E6145A001B14A2 /* LevelConfigurationTests.swift */,
-				F2991C2B21FB302100647ABD /* FormatOutput.swift */,
+				F24B2E5328DB34250092ABB2 /* OutputTests.swift */,
+				F2991C2B21FB302100647ABD /* FormatOutputTests.swift */,
 				F2B655FC21E6145A001B14A2 /* Info.plist */,
 			);
 			path = Tests;
@@ -547,6 +558,7 @@
 				F2991C2721FB2B6500647ABD /* Global.swift in Sources */,
 				F2991C1D21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
 				F2991C2221FB2B4200647ABD /* Helpers.swift in Sources */,
+				F24B2E4F28DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */,
 				F2B6566E21E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +567,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2991C2C21FB302100647ABD /* FormatOutput.swift in Sources */,
+				F24B2E5428DB34250092ABB2 /* OutputTests.swift in Sources */,
+				F2991C2C21FB302100647ABD /* FormatOutputTests.swift in Sources */,
 				F2B655FB21E6145A001B14A2 /* LevelConfigurationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,6 +580,7 @@
 				F2991C2821FB2B6500647ABD /* Global.swift in Sources */,
 				F2991C1E21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
 				F2991C2321FB2B4200647ABD /* Helpers.swift in Sources */,
+				F24B2E5028DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */,
 				F2B6566F21E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,6 +592,7 @@
 				F2991C2921FB2B6500647ABD /* Global.swift in Sources */,
 				F2991C1F21FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
 				F2991C2421FB2B4200647ABD /* Helpers.swift in Sources */,
+				F24B2E5128DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */,
 				F2B6567021E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +601,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2991C2D21FB302100647ABD /* FormatOutput.swift in Sources */,
+				F24B2E5528DB34250092ABB2 /* OutputTests.swift in Sources */,
+				F2991C2D21FB302100647ABD /* FormatOutputTests.swift in Sources */,
 				F2B6566821E68C4F001B14A2 /* LevelConfigurationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,6 +614,7 @@
 				F2991C2A21FB2B6500647ABD /* Global.swift in Sources */,
 				F2991C2021FB2B0F00647ABD /* PrettyLoggerLevel.swift in Sources */,
 				F2991C2521FB2B4200647ABD /* Helpers.swift in Sources */,
+				F24B2E5228DB33100092ABB2 /* PrettyLoggerOutput.swift in Sources */,
 				F2B6567121E69215001B14A2 /* PrettyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,7 +623,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2991C2E21FB302100647ABD /* FormatOutput.swift in Sources */,
+				F24B2E5628DB34250092ABB2 /* OutputTests.swift in Sources */,
+				F2991C2E21FB302100647ABD /* FormatOutputTests.swift in Sources */,
 				F2B6566921E68C4F001B14A2 /* LevelConfigurationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,7 +702,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -743,7 +762,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1004,7 +1024,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.s3ba.PrettyLogger-macOS";
 				PRODUCT_NAME = PrettyLogger;
 				SDKROOT = macosx;
@@ -1032,7 +1051,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.s3ba.PrettyLogger-macOS";
 				PRODUCT_NAME = PrettyLogger;
 				SDKROOT = macosx;
@@ -1053,7 +1071,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.s3ba.PrettyLogger-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1073,7 +1090,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.s3ba.PrettyLogger-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;

@@ -1,4 +1,5 @@
 import Foundation
+import Combine
 
 public class PrettyLogger {
     public static let shared = PrettyLogger()
@@ -6,7 +7,8 @@ public class PrettyLogger {
     public var level: PrettyLoggerLevel = .all
     public var separator: String = " "
     public var terminator: String = "\n"
-
+    public let output = PassthroughSubject<PrettyLoggerOutput, Never>()
+    
     private let mFormatter = DateFormatter(dateFormat: "HH:mm:ss.SSS")
 
     internal init() {
@@ -63,6 +65,10 @@ public class PrettyLogger {
 
         let stringToPrint = stringForCurrentStyle(logLevel: logLevel, message: message, terminator: terminator, file: file, line: line, column: column, function: function, date: date)
         print(stringToPrint, terminator: terminator)
+        
+        let output = PrettyLoggerOutput(level: logLevel,
+                                        text: stringToPrint)
+        self.output.send(output)
         return stringToPrint
     }
 

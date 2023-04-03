@@ -16,7 +16,7 @@ class OutputTests: XCTestCase {
             .output
             .delay(for: 2, scheduler: RunLoop.main)
             .sink { output in
-                XCTAssertEqual(output.text, expectedOutput)
+                XCTAssertEqual(output.formatted, expectedOutput)
                 expirationComplete.fulfill()
             }
             .store(in: &cancellables)
